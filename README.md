@@ -90,7 +90,7 @@ After rigorous training and cross-validation, the models were compared to identi
 
 # Conclusion
 
-## The Small Dataset Challenge
+It is proved to be true that ecological predictive modeling can be effective in predicting the age of possums. Interestingly Random Forest seemed to identify the most accurately and reliably. This project was not without issue, which I want to point out:  
 
 Initial modeling on the original dataset demonstrated the significant impact of data volume on predictive accuracy. Through rigorous testing of both simple and ensemble models, several key behaviors were identified:
 
@@ -99,8 +99,6 @@ Initial modeling on the original dataset demonstrated the significant impact of 
 * Sensitivity to Variance: Linear Regression exhibited a tendency to overfit toward mean values, while SVR struggled to maintain a flexible decision boundary, leading to the project's baseline for minimum performance
 
 * Algorithm Constraints: In the presence of limited data, advanced boosting models were unable to find significant advantages over simpler ensemble methods, establishing a "performance ceiling" for the initial dataset
-
-## Impact of Data Augmentation
 
 To explore the potential of these models, a synthetic data expansion was implemented to simulate a larger ecological study.
 
